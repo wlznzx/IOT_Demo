@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">IOT Demo</string>
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="mobilenumber_hint">手机号只能以“+”或数字开头第二位开始只能包含“-”和数字</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="mobilenumber_empty_guide">手机号为空将清除之前设置的手机号</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+
+    <string name="add_device">添加設備</string>
+    <string name="link_wifi">鏈接設備Wifi</string>
+
+    <string name="pwr_led_title">电源指示灯</string>
+    <string name="heat_led_title">加热指示灯</string>
+    <string name="temperature_title">设定温度</string>
+    <string name="detecter1_temp_title">探头HT1的温度</string>
+    <string name="detecter2_temp_title">探头HT2的温度</string>
+    <string name="device_status_title">設備狀態</string>
+
+    <string name="normal">正常</string>
+    <string name="high_temperature">高溫異常</string>
+    <string name="low_temperature">低溫異常</string>
+    <string name="no_water">無水異常</string>
+    <string name="temperature_out_control">溫度失控</string>
+
+    <string name="unbind_device">解綁設備</string>
+    <string name="set_temperature">設置溫度</string>
+
+    <string name="device_id">設備 ID</string>
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="my_device">我的設備</string>
+    <string name="sure_unbind_device">確認解綁設備？</string>
+    <string name="set_temperature_success">設定溫度成功.</string>
+    <string name="net_error">获取数据失败，请检查网络</string>
+    <string name="ssid">SSID:</string>
+    <string name="wifi_psd">密码:</string>
+    <string name="link">连接Wifi</string>
+    <string name="wifi_link_success">配置成功.</string>
+    <string name="wifi_link_fail">配置失败.</string>
+    <string name="set_temperature_fail">設定溫度失败.</string>
+    <string name="connect_ssid_success">设备联网成功.</string>
+    <string name="connect_ssid_fail">设备联网失败，请检查Wifi账号密码是否设置有误.</string>
+</resources>

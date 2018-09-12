@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="connecct_ssid_fail" type="id">ConnectSSIDFail</item>
+    <item name="connect_ssid_success" type="id">ConnectSSIDSuccess</item>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <string name="add_device">Add Device</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="app_name">IOT Demo</string>
+    <string name="cancel">Cancel</string>
+    <string name="centigrade">°C</string>
+    <string name="connect_ssid_fail">Connect SSID Fail.</string>
+    <string name="connect_ssid_success">Connect SSID Success.</string>
+    <string name="detecter1_temp_title">Detecter1 Temperature</string>
+    <string name="detecter2_temp_title">Detecter2 Temperature</string>
+    <string name="device_id">Device ID</string>
+    <string name="device_status_title">Device Status</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="heat_led_title">Heat Led</string>
+    <string name="hello">Hello World</string>
+    <string name="high_temperature">High temperature</string>
+    <string name="link">linkWifi</string>
+    <string name="link_wifi">Link Wifi</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="low_temperature">Low temperature</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="my_device">MyDevice</string>
+    <string name="net_error">Fail to get data, please check the network</string>
+    <string name="no_water">No water</string>
+    <string name="normal">Normal</string>
+    <string name="ok">OK</string>
+    <string name="pwr_led_title">Power Led</string>
+    <string name="set_temperature">Set temperature</string>
+    <string name="set_temperature_fail">Set Temperature Fail.</string>
+    <string name="set_temperature_success">Set Temperature Success.</string>
+    <string name="setting_su">Succeed to set</string>
+    <string name="ssid">SSID:</string>
+    <string name="style_hint">style should be number</string>
+    <string name="sure_unbind_device">Sure To UnBind Device?</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="temperature_out_control">Temperature Out Of Control</string>
+    <string name="temperature_title">Temperature</string>
+    <string name="unbind_device">Unbind Device</string>
+    <string name="wifi_link_fail">Config Fail.</string>
+    <string name="wifi_link_success">Config Success</string>
+    <string name="wifi_psd">Password:</string>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="device_item">
+		<item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginBottom">10dp</item>
+	</style>
+    <style name="push_alias">
+		<item name="android:hint">@string/alias_hint</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+    <style name="push_mobilenumber">
+		<item name="android:hint">@string/mobilenumber_hint</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+    <style name="push_style">
+		<item name="android:hint">@string/style_hint</item>
+		<item name="android:inputType">number</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+    <style name="push_tag">
+		<item name="android:hint">@string/tag_hint</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">IOT Demo</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+
+    <string name="add_device">Add Device</string>
+    <string name="link_wifi">Link Wifi</string>
+
+    <string name="pwr_led_title">Power Led</string>
+    <string name="heat_led_title">Heat Led</string>
+    <string name="temperature_title">Temperature</string>
+    <string name="detecter1_temp_title">Detecter1 Temperature</string>
+    <string name="detecter2_temp_title">Detecter2 Temperature</string>
+    <string name="device_status_title">Device Status</string>
+
+    <string name="centigrade">°C</string>
+
+    <string name="normal">Normal</string>
+    <string name="high_temperature">High temperature</string>
+    <string name="low_temperature">Low temperature</string>
+    <string name="no_water">No water</string>
+    <string name="temperature_out_control">Temperature Out Of Control</string>
+
+    <string name="unbind_device">Unbind Device</string>
+    <string name="set_temperature">Set temperature</string>
+
+    <string name="device_id">Device ID</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="my_device">MyDevice</string>
+    <string name="sure_unbind_device">Sure To UnBind Device?</string>
+    <string name="set_temperature_success">Set Temperature Success.</string>
+    <string name="net_error">Fail to get data, please check the network</string>
+    <string name="ssid">SSID:</string>
+    <string name="wifi_psd">Password:</string>
+    <string name="link">linkWifi</string>
+    <string name="wifi_link_success">Config Success</string>
+    <string name="wifi_link_fail">Config Fail.</string>
+    <string name="set_temperature_fail">Set Temperature Fail.</string>
+    <string name="connect_ssid_success">Connect SSID Success.</string>
+    <string name="connect_ssid_fail">Connect SSID Fail.</string>
+
+</resources>

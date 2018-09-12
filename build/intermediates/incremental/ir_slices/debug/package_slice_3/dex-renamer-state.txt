@@ -1,0 +1,4 @@
+#Sat Jul 14 15:15:27 CST 2018
+base.0=D\:\\Program Files\\android_stdio_workspace\\JPushExample\\build\\intermediates\\transforms\\dexMerger\\debug\\41
+path.0=classes.dex
+renamed.0=classes.dex
