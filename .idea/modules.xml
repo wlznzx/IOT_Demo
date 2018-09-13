@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JPushExample.iml" filepath="$PROJECT_DIR$/JPushExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOT_Demo.iml" filepath="$PROJECT_DIR$/IOT_Demo.iml" />
     </modules>
   </component>
 </project>
